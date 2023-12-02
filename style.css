@@ -1,0 +1,37 @@
+body {
+    background-image: url(gggg.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 34, 58);
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    color: rgb(4, 0, 255);
+}
+#contenedor{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    color: blue;
+
+}
+#calculadora{
+    width: 50%;
+    height: 100%;  
+}
+.contenido {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 400px;
+}
+#resultado{
+    background-image: linear-gradient(transparent, grey);
+    border-radius: 20px;
+    color: black;
+    height: 210px;
+    width: 500px;
+}
